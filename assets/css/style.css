@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(25, 91, 45, 255);
+}
+
+body>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    border: 4px solid white;
+    gap: 10px;
+    padding: 15px;
+    width: 80%;
+    overflow: hidden;
+}
+
+#pc-table,
+#user-space {
+    height: 30%;
+}
+
+#user-table {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#user-score {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    border-radius: 10%;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.card {
+    width: 30%;
+    height: 90%;
+}
+
+.card svg {
+    width: 100%;
+    height: 100%;
+}
